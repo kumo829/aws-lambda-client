@@ -11,7 +11,7 @@ import com.amazonaws.services.lambda.model.InvokeResult;
 public class AWSClient {
 
 	public static void main(String[] args) {
-		BasicAWSCredentials awdCreds = new BasicAWSCredentials("AKIAJTSI4S4LYKJR65LA", "QopTcx8qLJGKhsYMtBjO2QazC+G/4hC/s3Thgh06");
+		BasicAWSCredentials awdCreds = new BasicAWSCredentials("DATA", "DATA");
 		AWSLambda lambda = AWSLambdaAsyncClientBuilder.standard()
 				.withCredentials(new AWSStaticCredentialsProvider(awdCreds))
 				.withRegion(Regions.US_EAST_2)
